@@ -5,7 +5,7 @@ Theme 09 from `docs/task-condition.pdf` file. This project is a catalogue of IT 
 
 ## Structure
 ```
-/xml-technologies-fmi
+xml-technologies-fmi/
 ├── data/      
 │   └── IT_companies.xml                     # XML file describing companies 
 ├── dtd/       
