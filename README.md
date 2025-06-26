@@ -4,11 +4,24 @@
 Theme 09 from `docs/task-condition.pdf` file. This project is a catalogue of IT companies in Bulgaria, organized by region and described using XML, DTD, XSLT, and XSL-FO technologies.
 
 ## Structure
-- `data/` - XML files describing companies
-- `dtd/`  - DTD schema(s) for validation
-- `xslt/` - XSLT stylesheets and XSL-FO templates
-- `output/` - Generated PDFs and other output
-  
+```
+/xml-technologies-fmi
+├── data/      
+│   └── IT_companies.xml                     # XML file describing companies 
+├── dtd/       
+│   └── IT_companies.dtd                     # DTD schema for validation
+├── xslt/      
+│   └── IT_companies.xsl                     # XSLT stylesheet and XSL-FO template
+├── docs/
+│   ├── images/
+│   ├── catalogue.pdf
+│   ├── documentation.pdf
+│   ├── task-condition.pdf
+│   └── catalogue-generation-process.mp4
+├── LICENSE
+└── README.md                                # Project overview
+```            
+
 ## Features
 - **XML-based catalogue:**  
   Structured storage of Bulgarian IT companies by region, including both textual and graphical information about each company.
